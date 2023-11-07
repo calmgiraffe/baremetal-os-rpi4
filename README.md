@@ -1,1 +1,0 @@
-# baremetal-os-rpi4
