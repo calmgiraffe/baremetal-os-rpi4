@@ -1,8 +1,6 @@
-// AArch64 mode
-
 .section ".text.boot"  // Make sure the linker puts this at the start of the kernel image
 
-.global _start  // Execution starts here
+.global _start
 
 // Entry point for the kernel. Registers:
 // x0 -> 32 bit pointer to DTB in memory (primary core only) / 0 (secondary cores)
